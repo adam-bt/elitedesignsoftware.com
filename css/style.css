@@ -1,0 +1,86 @@
+body {
+	font-family: 'Roboto', sans-serif; 
+}
+a,img,h1,h2,h3,h4,h5,h6,span,p,li,button {-webkit-transition: all 0.7s;-moz-transition: all 0.7s;-ms-transition: all 0.7s;-o-transition: all 0.7s;transition: all 0.7s;}
+header {
+	 padding: 30px 0 60px;
+	width: 100%;
+background: -moz-linear-gradient(90deg, #ffffff 11%, #52afe7 100%);/* FF3.6+ */
+background: -webkit-gradient(linear, 90deg, color-stop(11%, #ffffff), color-stop(100%, #52afe7));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(90deg, #ffffff 11%, #52afe7 100%);/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(90deg, #ffffff 11%, #52afe7 100%);/* Opera 11.10+ */
+background: -ms-linear-gradient(90deg, #ffffff 11%, #52afe7 100%);/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#52afe7', GradientType='0'); /* for IE */
+background: linear-gradient(360deg, #ffffff 11%, #52afe7 100%);/* W3C */
+}
+img {
+  max-width: 100%;
+}
+.content-sec {
+  float: left;
+  padding: 50px 0;
+  width: 100%;
+}
+.booking-logo {
+	float: left;
+	padding: 0 50px;
+	text-align: right;
+}
+.booking-txt h1 {
+	float: left;
+	font-size: 34px;
+	margin: 0;
+	padding: 30px 0;
+	width: 100%;
+}
+.booking-txt {
+	text-align: center;
+}
+.head-txt {
+	float: right;
+	font-size: 25px;
+	padding: 5px 0;
+	text-transform: uppercase;
+	color: #117ec0; font-weight: bold;
+}
+.head-txt span {
+	color: #94b739;
+	font-weight: bold;
+}
+.booking-txt a img {
+  max-width: 40%;
+  padding: 35px 0;
+  transition: all 0.7s ease 0s;
+}
+.booking-txt a:hover img {transform: rotate(0deg) scale(1.1, 1.1) skew(0deg, 0deg) translate(0px, 0px);}
+
+.booking-txt p {
+  float: left;
+  font-size: 21px;
+  line-height: 30px;
+  margin: 0 0 13px;
+  padding: 70px 160px;
+  width: 100%;
+}
+.container {
+	max-width: 1050px;
+}
+footer {
+	border-top: 1px solid #dfdfdf;
+	float: left;
+	margin: 0;
+	padding: 25px 0;
+	text-align: center;
+	width: 100%;
+}
+.footer p {
+	float: left;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #999999;
+}
+.head-txt > a {
+  text-decoration: none;
+}

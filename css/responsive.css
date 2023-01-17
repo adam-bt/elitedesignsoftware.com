@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (min-width:320px) and (max-width:479px){
+header {
+  padding: 10px 15px;
+  text-align: center;
+}
+.head-txt {
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+}
+.content-sec {
+  padding: 0;
+}
+.booking-txt h1 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.booking-txt a img {
+  max-width: 50%;
+}
+.booking-txt p {
+  font-size: 15px;
+  padding: 15px 0;
+}
+footer {
+  padding: 20px 0;
+}
+.footer p {
+  font-size: 12px;
+}
+}
+
+
+
+
+@media (min-width:480px) and (max-width:639px){
+header {
+  padding: 10px 15px;
+  text-align: center;
+}
+.head-txt {
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+}
+.content-sec {
+  padding: 0;
+}
+.booking-txt h1 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+.booking-txt a img {
+  max-width: 50%;
+}
+.booking-txt p {
+  font-size: 15px;
+  padding: 15px 0;
+}
+footer {
+  padding: 20px 0;
+}
+.footer p {
+  font-size: 12px;
+}	
+	
+
+}
+
+
+
+
+@media (min-width:640px) and (max-width:769px){
+header {
+   padding: 20px 15px 40px;
+  text-align: center;
+}
+.booking-txt p {
+   font-size: 18px;
+   padding: 50px 30px;
+}
+.head-txt {
+  float: right;
+  font-size: 16px;
+  padding: 10px 0;
+  text-align: right;
+  width: 40%;
+}
+.header img {
+  float: left;
+  max-width: 40%;
+}
+.content-sec {
+  padding: 0;
+}
+.booking-txt h1 {
+  font-size: 25px;
+  padding: 30px 0;
+}
+	
+
+}
+
+
+
+
+@media (min-width:768px) and (max-width:991px){
+header {
+   padding: 20px 15px 40px;
+  text-align: center;
+}
+.booking-txt p {
+  font-size: 18px;
+  padding: 50px 30px;
+}
+.head-txt {
+  float: right;
+  font-size: 18px;
+  padding: 10px;
+  text-align: right;
+  width: 40%;
+}
+.header img {
+  float: left;
+  max-width: 40%;
+}
+.content-sec {
+  padding: 0;
+}
+.booking-txt h1 {
+  font-size: 25px;
+  padding: 30px 0;
+}	
+	
+
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px){
+	
+	
+
+}

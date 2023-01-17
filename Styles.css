@@ -1,0 +1,393 @@
+body 	{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: white; /*Formerly Black*/
+	}
+
+/* START DIV ID CLASSES ***********************************/
+#leftcontent { /* controls position of left menu, declared in leftmenu subform */
+	position: absolute;
+	top: 170px;
+	left: 0px;
+	padding-left: 20px;
+	}
+	
+#rightcontent { /* controls position of right menu and content, declared in www.rightmenu subform */
+	position: absolute;
+	top:170px;
+	right:0px;
+	padding-right: 20px;
+	}
+#centercontent { /* controls the display of the central content, declared in each content form */
+	background-color: #FFFFFF;
+	padding: 5px 10px 5px 10px;
+	
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	margin: 10px 10px 10px 10px;
+	}
+	
+#homeTable {
+	width: 100%;
+	}
+	
+#marquee {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 80%;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	margin: 5px 0px 5px 0px;
+	}
+#marquee a, .marquee a:link, .marquee a:visited {
+	color: #FF6600;
+	text-decoration: none;	
+	}
+		
+#marquee a:hover {
+	color: #CCCCCC;
+	text-decoration: underline;
+	}
+#marquee a:active {
+	color: #0000FF;
+	text-decoration: none;	
+	}
+#footer { /* this is required at the end of some pages to maintain the bottom border*/
+	width: 100%;
+	height: 20px;
+	background-color: #000000;
+	}
+/* END DIV ID CLASSES ***************************************/
+	
+/* START OTHER ID CLASSES **************************************/
+#searchbox {
+	margin: 0px 0px 0px 7px;
+	width: 125px;
+	font-family: arial, helvetica, sans-serif;
+	border: 1px solid #999999;
+	border-style: inset;
+	}
+	
+#searchbutton {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 70%;
+	width: 30px;
+	margin-left: 6px;
+	}
+#rightads {
+	margin: 15px 0px 10px 0px;
+	}
+#rightads img {
+	margin: 0px 0px 0px 7px;
+	border: 0px;
+	}
+/* END OTHER ID CLASSES **************************************/
+	
+/* START LEFT MENU CLASSES ***************************************/
+ul.menulist {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 5px 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 76%;
+	background-color: Transparent;
+	}
+	
+li.li_header {
+	display: block;
+	padding: 10px 0px 0px 10px;
+	color: DarkBlue; /*formerly #FFFFFF*/
+	font-weight: bold;
+	font-size: 120%;
+	text-decoration: none;
+	}
+	
+ul.menulist li {
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	text-align: left;
+	width: 140px;
+	color: DarkBlue;
+	}
+ul.menulist li a {
+	display: block;
+	border-left: 5px solid #0E2B8D;
+	text-decoration: none;
+	margin-left: 10px;
+	padding-left: 1px;
+	color: DarkBlue;
+	}
+	
+ul.menulist li a:link { 
+	color: #FFFFFF;
+	border-bottom: 1px solid #274199;
+	color: DarkBlue;
+	}
+ul.menulist li a:visited { 
+	color: DarkBlue;
+	border-bottom: 1px solid #274199;
+	}
+ul.menulist li a:hover {
+	color: #0E2B8D;
+	background: #DDDDDD; /*#DDDDDD*/
+	border-left: 5px solid #666666;
+	border-bottom: 1px solid #274199;
+	}
+ ul.menulist li a:active {
+	color: #FFFFFF;
+	background: #DDDDDD;
+	border-left: 5px solid #666666;
+	border-bottom: 1px solid #CCCCCC;
+	}
+/* END LEFT MENU CLASSES ***************************************/
+/* START RIGHT CONTENT CLASSES ***************************************/
+ul.r-content {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-family: arial, helvetica, sans-serif;
+	list-style: none;
+	}
+	
+li.r-li_header {
+	display: block;
+	padding: 10px 0px 0px 0px;
+	margin: 0px 10px 0px 0px;  /*Need 10px offset on right due to 10px padding on left*/
+	color: darkblue; /***#000000*/
+	font-size: 90%;
+	font-weight: bold;
+	}
+/* END RIGHT CONTENT CLASSES ******************************/
+/* START TEXT & LINK CLASSES ******************************/
+.homeHeader {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 150%;
+	color: #000000;
+	}
+h1, pre {
+	margin: 0px 10px 10px 10px;
+	}
+.document {
+	margin: 2px 0px 10px 0px;
+	}
+.documenttitle {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 120%;
+	color: #00308F;
+	padding: 4px 4px 4px 4px;
+	border: 1px solid #EBEBEB;
+	margin-bottom: 10px;
+	}
+	
+.documenttitle a, .documenttitle a:link, .documenttitle a:visited, {
+	text-decoration: none;
+	color: #00308F;		
+	}
+	
+.documenttitle a:hover {
+	color: #CCCCCC;		
+	}
+.documenttitle a:active {
+	color: #00308F;
+	}	
+	
+.documentbody {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 76%;
+	color: #000000;
+	padding: 0px 4px 0px 4px;
+	margin: 0px;
+	}
+	
+.documentbody a, .documentbody a:link, .documentbody a:visited, .documentbody a:active {
+	color: #FF6600;
+	text-decoration: none;	
+	}
+.documentbody a:hover {
+	color: #B1B1B1;
+	text-decoration: underline;
+	}
+.documentlightbody {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 76%;
+	color: #999999;
+	padding: 0px 4px 0px 4px;
+	margin: 0px;
+	}
+.documentfooter {
+	padding: 4px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 76%;
+	color: #000000;
+	}
+	
+.documentfooter a, .documentfooter a:link, .documentfooter a:visited, .documentfooter a:active {
+	text-decoration: none;	
+	color: #FF6600;
+	}
+		
+.documentfooter a:hover {
+	text-decoration: underline;	
+	color: #B1B1B1;
+	}
+.subTitle {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 120%;
+	font-weight: bolder;
+	color: #000000;
+	}
+.subTitle a, .subTitle a:link, .sub_Title a:visited, .subTitle a:active {
+	text-decoration: none;
+	color: #00308F;		
+	}
+	
+.subTitle a:hover {
+	text-decoration: underline;		
+	color: #CCCCCC;
+	}
+.docSubTitle {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 120%;
+	font-weight: 300;
+	color: #000000;
+	}
+
+.textfield { 
+	font-family: arial, helvetica, sans-serif;
+	color: #000000;
+	}
+.dropdownfield {
+	font-family: arial, helvetica, sans-serif;
+	color: #000000;
+	}
+a.sectionheader {
+	font-weight: bold;
+	color: #000000;	
+	}
+.subheader {
+	font-weight: bold;
+	color: #00308F;	
+	}
+.stdtable {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 90%;
+	color: #000000;
+	padding: 4px;
+	}
+.locationimage {
+	float: right;
+	padding: 0px 10px 0px 10px;
+	display: inline-block;
+	}
+/* Hides from IE5-mac \*/
+* html .buggybox {height: 1%;}
+/* End hide from IE5-mac */ 
+/* END TEXT & LINK CLASSES ******************************/
+/*START TABLE CLASSES************************************/
+td.leftmenu {
+	width: 17px;
+	height: 100%;
+	background-image: url(left-repeater.gif);
+	}
+td.centercontent {
+	background-color: #FFFFFF;
+	vertical-align: top;
+	}
+td.rightmenu {
+	width: 172px;
+	height: 500px;
+	background-image: url(right-repeater.gif);
+	}
+td.homeTableTitle
+{
+	padding-right: 5px;
+	padding-left: 5px;
+	font-size: 115%;
+	padding-bottom: 5px;
+	color: #ffffff;
+	padding-top: 5px;
+	font-family: arial, helvetica, sans-serif;
+	height: 20px;
+	background-color: #2e8af1;
+}
+.homeTable {
+	border: 0px;
+	padding: 2px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 87%;
+	color: #000000;
+	}
+td.homeTable {
+	background-color: #E5E5E5;
+	min-height: 220px;
+	vertical-align: top;
+	padding: 5px;
+	}
+td.contentTableTitle { /*this table is generally set up by users in the documents*/
+	background-color: #4A60AA;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 120%;
+	color: #FFFFFF;
+	height: 20px;
+	border: 1px solid #FFFFFF;
+	padding: 5px;
+	}
+.contentTable {
+	border: 1px solid #FFFFFF;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 95%;
+	color: #000000;
+	}
+td.contentTable {
+	background-color: #E5E5E5;
+	min-height: 220px;
+	vertical-align: top;
+	padding: 5px;
+	}
+/*END TABLE CLASSES************************************/
+	
+.sub_areatitle a, .sub_areatitle a:visited {
+	text-decoration: none;
+	color: #00308F;		
+	}
+	
+.sub_areatitle a:hover {
+	color: #CCCCCC;		
+	}
+.sub_areabody {
+	font-family: arial, helvetica, sans-serif;
+	color: #000000;
+	padding: 4px;
+	overflow: auto;
+	}
+	
+.sub_area_r img {
+	float: right;
+	padding: 0px 5px 5px 5px;
+	display: inline-block;
+	}
+	
+.sub_area_l img {
+	float: left;
+	padding: 0px 5px 5px 5px;
+	display: block;
+	}
+	
+.sub_areafooter {
+	padding: 4px;
+	font-family: arial, helvetica, sans-serif;
+	color: #000000;
+	}
+	
+.sub_areafooter a, .sub_areafooter a:visited {
+	text-decoration: none;	
+	}
+		
+.sub_areafooter a:hover {
+	text-decoration: underline;	
+	}
+.blueLabel {
+	color: #00308F;		
+	}
+#banner {
+	height: 150px;
+	}
+*/
